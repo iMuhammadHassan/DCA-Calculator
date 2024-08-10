@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DCA Calculator</title>
+    
+</head>
+<body>
+    <form action="" class="Calculator-form" onsubmit="DCA_calculator(event)">
+        <h2>DCA Calculator</h2>
+        <input type="text" placeholder="Entry Price" id="entry_price">
+        <input type="text" placeholder="Quantity">
+        <input type="text" placeholder="Leverage">
+        <br><br><br>
+        <h4>DCA Portion</h4>
+        <input type="text" placeholder="Market Price">
+        <input type="text" placeholder="Quantity">
+        <input type="text" placeholder="Leverage">
+        <br>
+        <button type="submit">Calculate</button>
+        <input type="text" placeholder="New Entry Price" id="new_entry_price">
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
